@@ -49,6 +49,6 @@ function renderCountry(country) {
         countryInfo.innerHTML = markup;
     }
     else {
-        Notiflix.Notify.warning('Oops, there is no country with that name');
+        Notiflix.Notify.warning('Ooops, there is no country with that name');
     }
 }
